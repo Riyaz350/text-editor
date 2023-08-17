@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <section class="max-w-7xl mx-auto bg-teal-500 p-9 ">
+        <h1 class="text-center text-4xl">My Text Editor</h1>
+        <div>
+            <div class="border-2 border-black p-4 flex flex-row justify-between my-3">
+                <div class="flex flex-row gap-4 text-2xl font-bold">
+                    <ul class="flex flex-row gap-4">
+                        <button id="bold">B</button>
+                        <button id="italic" class="italic">I</button>
+                        <button id="underline" class="underline">U</button>
+                    </ul>
+                </div>
+                <div >
+                    <ul class="flex flex-row gap-4 text-2xl">
+                        <button id="left"><i class="fa-solid fa-align-left fa-sm"></i></button>
+                        <button id="center"><i class="fa-solid fa-align-center fa-sm"></i></button>
+                        <button id="right"><i class="fa-solid fa-align-right fa-sm"></i></button>
+                        <button id="justify"><i class="fa-solid fa-align-justify fa-sm"></i></button>
+                    </ul>
+                </div>
+                <div class="flex flex-row gap-4 text-2xl">
+                    <ul class="flex flex-row">
+                        <!-- <div class="flex flex-row" >
+                            <input id="size" class="w-9" type="text">
+                            <div class="">
+                                <button id="up" class="">↑</button>
+                                <button id="down" class="">↓</button>
+                            </div>
+                        </div> -->
+                        <input id="favcolor" type="color"/>
+                    </ul>
+                </div>
+            </div>
+            <input id="input" type="text" class="input input-bordered input-lg w-full h-96" />
+        </div>
+    </section>
+
+    <script>
+        
+    </script>
+
+    <script src="textstyle.js"></script>
+</body>
+</html>
